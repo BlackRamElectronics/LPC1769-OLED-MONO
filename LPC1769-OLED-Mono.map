@@ -1,0 +1,363 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__register_exitproc)
+c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_fini_array)
+c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+oled_graphics_buffer
+                    0x400             C:\Users\Reuben\AppData\Local\Temp\ccod6C3O.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
+ .init          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
+ .fini          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
+ .ARM.attributes
+                0x00000000       0x1d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
+ .text          0x00000000       0x54 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .bss           0x00000000       0x1c c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .init_array    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .fini_array    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .eh_frame      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .jcr           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+ .text          0x00000000       0x70 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccod6C3O.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.code_pic.4085
+                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.code_pic1.4084
+                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.code_pic2.4083
+                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.code_pic3.4082
+                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.code_pic4.4081
+                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccwV8NXS.o (symbol from plugin)
+ .data          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+ .bss           0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+ .text.__register_exitproc
+                0x00000000       0x14 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x64 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .rodata.str1.1
+                0x00000000        0x2 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000       0x4c c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .text._exit    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
+ .jcr           0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
+ .init          0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
+ .fini          0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
+ .ARM.attributes
+                0x00000000       0x1d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00080000         xr
+RAM              0x10000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccod6C3O.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccwV8NXS.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+END GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
+
+.text           0x00000000     0x18bc
+ *(.isr_vector)
+ .isr_vector    0x00000000       0x44 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+                0x00000000                __isr_vector
+ *(.text*)
+ .text.NVIC_SetPriority.4007.4049
+                0x00000044       0x58 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.SysTick_Config.4015.4045
+                0x0000009c       0x64 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.main     0x00000100      0xc90 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+                0x00000100                main
+ .text.SysTick_Handler
+                0x00000d90       0x24 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+                0x00000d90                SysTick_Handler
+ .text.SPI_Send_Bitbash.4038
+                0x00000db4       0xd8 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.SendCMD.4035
+                0x00000e8c       0x28 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.SendData.4032
+                0x00000eb4       0x28 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.InitOLED.4030
+                0x00000edc      0x150 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.Set_Page_Address.4027
+                0x0000102c       0x24 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.Set_Column_Address.4024
+                0x00001050       0x34 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.Display_Picture.4021
+                0x00001084       0x6c C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.display_text_at_cursor.4016
+                0x000010f0       0xdc C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.put_pixel.4010
+                0x000011cc       0x90 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.SystemInit
+                0x0000125c      0x2f4 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+                0x0000125c                SystemInit
+ .text          0x00001550       0x54 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+                0x00001550                Reset_Handler
+                0x00001590                NMI_Handler
+                0x00001592                HardFault_Handler
+                0x00001594                MemManage_Handler
+                0x00001596                BusFault_Handler
+                0x00001598                UsageFault_Handler
+                0x0000159a                SVC_Handler
+                0x0000159c                DebugMon_Handler
+                0x0000159e                PendSV_Handler
+                0x000015a2                DEF_IRQHandler
+                0x000015a2                Default_Handler
+ .text.memset   0x000015a4       0x10 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+                0x000015a4                memset
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.font_5_7_in_6_8_cell.4060
+                0x000015b4      0x300 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .rodata.reverse_bits_table.4058
+                0x000018b4        0x8 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ *(.eh_frame*)
+
+.glue_7         0x000018bc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000018bc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000018bc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000018bc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000018bc        0x0
+ .iplt          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+
+.rel.dyn        0x000018bc        0x0
+ .rel.iplt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000018bc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000018bc                __exidx_end = .
+                0x000018bc                __etext = .
+
+.data           0x10000000     0x4804 load address 0x000018bc
+                0x10000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.DUDE0.4064
+                0x10000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE1.4065
+                0x10000400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE2.4066
+                0x10000800      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE3.4067
+                0x10000c00      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE4.4068
+                0x10001000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE5.4069
+                0x10001400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE6.4070
+                0x10001800      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE7.4071
+                0x10001c00      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE8.4072
+                0x10002000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE9.4073
+                0x10002400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE10.4074
+                0x10002800      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE11.4075
+                0x10002c00      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE12.4076
+                0x10003000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE13.4077
+                0x10003400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE14.4078
+                0x10003800      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE15.4079
+                0x10003c00      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.DUDE16.4080
+                0x10004000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.BR_LOGO_LCD.4063
+                0x10004400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .data.SystemFrequency.4056
+                0x10004800        0x4 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+                0x10004804                . = ALIGN (0x4)
+                0x10004804                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x10004804                PROVIDE (__preinit_array_end, .)
+                0x10004804                . = ALIGN (0x4)
+                0x10004804                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x10004804                PROVIDE (__init_array_end, .)
+                0x10004804                . = ALIGN (0x4)
+                0x10004804                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x10004804                PROVIDE (__fini_array_end, .)
+ *(.jcr)
+                0x10004804                . = ALIGN (0x4)
+                0x10004804                __data_end__ = .
+
+.igot.plt       0x10004804        0x0 load address 0x000060c0
+ .igot.plt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
+
+.bss            0x10004804      0x404 load address 0x000060c0
+                0x10004804                . = ALIGN (0x4)
+                0x10004804                __bss_start__ = .
+ *(.bss*)
+ .bss.msTicks.4062
+                0x10004804        0x4 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .bss.oled_graphics_buffer.4057
+                0x10004808      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ *(COMMON)
+                0x10004c08                . = ALIGN (0x4)
+                0x10004c08                __bss_end__ = .
+
+.heap           0x10004c08        0x0
+                0x10004c08                __end__ = .
+                0x10004c08                end = __end__
+ *(.heap*)
+ .heap          0x10004c08        0x0 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+                0x10004c08                __HeapLimit = .
+
+.stack_dummy    0x10004c08      0xc00
+ *(.stack*)
+ .stack         0x10004c08      0xc00 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+                0x10008000                __StackTop = (ORIGIN (RAM) + 0x8000)
+                0x10007400                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x10008000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(LPC1769-OLED-Mono-CM3.axf elf32-littlearm)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+                                 0x71 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x29
+ .ARM.attributes
+                0x00000000       0x31 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .ARM.attributes
+                0x00000031       0x1b C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+ .ARM.attributes
+                0x0000004c       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+
+.debug_frame    0x00000000       0x20
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
