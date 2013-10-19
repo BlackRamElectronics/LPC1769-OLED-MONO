@@ -1,0 +1,1 @@
+lpc21isp -wipe -bin -control LPC1769-OLED-Mono-CM3.bin com5 115200 12000

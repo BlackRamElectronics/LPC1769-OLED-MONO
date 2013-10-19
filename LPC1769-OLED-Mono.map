@@ -18,8 +18,7 @@ c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none
 Allocating common symbols
 Common symbol       size              file
 
-oled_graphics_buffer
-                    0x400             C:\Users\Reuben\AppData\Local\Temp\ccod6C3O.o (symbol from plugin)
+DisplayBuffer       0x400             C:\Users\Reuben\AppData\Local\Temp\ccuG634F.o (symbol from plugin)
 
 Discarded input sections
 
@@ -46,23 +45,22 @@ Discarded input sections
  .ARM.exidx     0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .ARM.attributes
                 0x00000000       0x1b c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
- .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccod6C3O.o (symbol from plugin)
- .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .bss           0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.code_pic.4085
-                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.code_pic1.4084
-                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.code_pic2.4083
-                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.code_pic3.4082
-                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.code_pic4.4081
-                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccwV8NXS.o (symbol from plugin)
- .data          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
- .bss           0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccuG634F.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .rodata.BR_LOGO_ANIM.4127
+                0x00000000     0x7800 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .data.BR_LOGO_LCD.4126
+                0x00000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccEOeJPG.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\cceQw4oL.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccjXzEMM.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccW7phFS.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccvG3WP3.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccUrOxOj.o (symbol from plugin)
+ .data          0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccPLGvrC.o
+ .bss           0x00000000        0x0 C:\Users\Reuben\AppData\Local\Temp\ccPLGvrC.o
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-__atexit2.o)
@@ -144,12 +142,17 @@ Linker script and memory map
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crti.o
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
-LOAD C:\Users\Reuben\AppData\Local\Temp\ccod6C3O.o
-LOAD C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccuG634F.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m\libgcc.a
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
-LOAD C:\Users\Reuben\AppData\Local\Temp\ccwV8NXS.o
-LOAD C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccEOeJPG.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\cceQw4oL.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccjXzEMM.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccW7phFS.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccvG3WP3.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccUrOxOj.o
+LOAD C:\Users\Reuben\AppData\Local\Temp\ccPLGvrC.o
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
@@ -160,55 +163,87 @@ END GROUP
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtend.o
 LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn.o
 
-.text           0x00000000     0x18bc
+.text           0x00000000     0x13e8
  *(.isr_vector)
- .isr_vector    0x00000000       0x44 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+ .isr_vector    0x00000000       0x44 C:\Users\Reuben\AppData\Local\Temp\ccPLGvrC.o
                 0x00000000                __isr_vector
  *(.text*)
- .text.NVIC_SetPriority.4007.4049
-                0x00000044       0x58 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.SysTick_Config.4015.4045
-                0x0000009c       0x64 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.main     0x00000100      0xc90 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.NVIC_SetPriority.4007.4110
+                0x00000044       0x58 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SysTick_Config.4015.4107
+                0x0000009c       0x64 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.main     0x00000100       0x4c C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
                 0x00000100                main
- .text.SysTick_Handler
-                0x00000d90       0x24 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
-                0x00000d90                SysTick_Handler
- .text.SPI_Send_Bitbash.4038
-                0x00000db4       0xd8 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.SendCMD.4035
-                0x00000e8c       0x28 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.SendData.4032
-                0x00000eb4       0x28 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.InitOLED.4030
-                0x00000edc      0x150 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.Set_Page_Address.4027
-                0x0000102c       0x24 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.Set_Column_Address.4024
-                0x00001050       0x34 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.Display_Picture.4021
-                0x00001084       0x6c C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.display_text_at_cursor.4016
-                0x000010f0       0xdc C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .text.put_pixel.4010
-                0x000011cc       0x90 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .text.SplashScreen.4103
+                0x0000014c       0xc0 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.TextDemo.4101
+                0x0000020c       0xd4 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
  .text.SystemInit
-                0x0000125c      0x2f4 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
-                0x0000125c                SystemInit
- .text          0x00001550       0x54 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
-                0x00001550                Reset_Handler
-                0x00001590                NMI_Handler
-                0x00001592                HardFault_Handler
-                0x00001594                MemManage_Handler
-                0x00001596                BusFault_Handler
-                0x00001598                UsageFault_Handler
-                0x0000159a                SVC_Handler
-                0x0000159c                DebugMon_Handler
-                0x0000159e                PendSV_Handler
-                0x000015a2                DEF_IRQHandler
-                0x000015a2                Default_Handler
- .text.memset   0x000015a4       0x10 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
-                0x000015a4                memset
+                0x000002e0      0x24c C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+                0x000002e0                SystemInit
+ .text.SendCMD.4095
+                0x0000052c       0x20 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SendData.4092
+                0x0000054c       0x20 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.InitOLED.4090
+                0x0000056c       0xf4 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SetPageAddress.4087
+                0x00000660       0x20 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SetColumnAddress.4084
+                0x00000680       0x34 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.DrawTextToBuffer.4079
+                0x000006b4       0x50 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.WriteBufferToDisplay.4076
+                0x00000704       0x60 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.DrawChar.4070
+                0x00000764       0xec C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SetPixel.4063
+                0x00000850       0x8c C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.OLED_InitIF.4061
+                0x000008dc       0x90 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.OLED_MsDelay.4058
+                0x0000096c       0x18 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.OLED_SendByte.4055
+                0x00000984       0x20 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.OLED_ResetAssert.4053
+                0x000009a4       0x18 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.OLED_ResetDeassert.4051
+                0x000009bc       0x18 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.OLED_SetCommand.4049
+                0x000009d4       0x1c C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.OLED_SetData.4047
+                0x000009f0       0x1c C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SysTick_Handler
+                0x00000a0c       0x24 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+                0x00000a0c                SysTick_Handler
+ .text.MsDelay.4041
+                0x00000a30       0x34 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SPI_Init.4028
+                0x00000a64      0x3d8 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SPI_SendByte.4024
+                0x00000e3c       0x64 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.SPI_WaitWhileBusy.4019
+                0x00000ea0       0x48 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.CLKPWR_GetPCLKDiv.4016
+                0x00000ee8       0x48 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.CLKPWR_GetPCLK.4013
+                0x00000f30       0x7c C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text.CLKPWR_EnablePPWR.4007
+                0x00000fac       0x30 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .text          0x00000fdc       0x54 C:\Users\Reuben\AppData\Local\Temp\ccPLGvrC.o
+                0x00000fdc                Reset_Handler
+                0x0000101c                NMI_Handler
+                0x0000101e                HardFault_Handler
+                0x00001020                MemManage_Handler
+                0x00001022                BusFault_Handler
+                0x00001024                UsageFault_Handler
+                0x00001026                SVC_Handler
+                0x00001028                DebugMon_Handler
+                0x0000102a                PendSV_Handler
+                0x0000102e                DEF_IRQHandler
+                0x0000102e                Default_Handler
+ .text.memset   0x00001030       0x10 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+                0x00001030                memset
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -222,124 +257,90 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata.font_5_7_in_6_8_cell.4060
-                0x000015b4      0x300 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .rodata.reverse_bits_table.4058
-                0x000018b4        0x8 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .rodata        0x00001040       0xa8 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .rodata.FONT_5x7.4122
+                0x000010e8      0x300 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
  *(.eh_frame*)
 
-.glue_7         0x000018bc        0x0
+.glue_7         0x000013e8        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x000018bc        0x0
+.glue_7t        0x000013e8        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x000018bc        0x0
+.vfp11_veneer   0x000013e8        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x000018bc        0x0
+.v4_bx          0x000013e8        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x000018bc        0x0
+.iplt           0x000013e8        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 
-.rel.dyn        0x000018bc        0x0
+.rel.dyn        0x000013e8        0x0
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000018bc                __exidx_start = .
+                0x000013e8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000018bc                __exidx_end = .
-                0x000018bc                __etext = .
+                0x000013e8                __exidx_end = .
+                0x000013e8                __etext = .
 
-.data           0x10000000     0x4804 load address 0x000018bc
+.data           0x10000000        0x8 load address 0x000013e8
                 0x10000000                __data_start__ = .
  *(vtable)
  *(.data*)
- .data.DUDE0.4064
-                0x10000000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE1.4065
-                0x10000400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE2.4066
-                0x10000800      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE3.4067
-                0x10000c00      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE4.4068
-                0x10001000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE5.4069
-                0x10001400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE6.4070
-                0x10001800      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE7.4071
-                0x10001c00      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE8.4072
-                0x10002000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE9.4073
-                0x10002400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE10.4074
-                0x10002800      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE11.4075
-                0x10002c00      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE12.4076
-                0x10003000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE13.4077
-                0x10003400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE14.4078
-                0x10003800      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE15.4079
-                0x10003c00      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.DUDE16.4080
-                0x10004000      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.BR_LOGO_LCD.4063
-                0x10004400      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .data.SystemFrequency.4056
-                0x10004800        0x4 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
-                0x10004804                . = ALIGN (0x4)
-                0x10004804                PROVIDE (__preinit_array_start, .)
+ .data.SystemCoreClock.4119
+                0x10000000        0x4 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .data.Contrast_level.4124
+                0x10000004        0x1 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+                0x10000008                . = ALIGN (0x4)
+ *fill*         0x10000005        0x3 00
+                0x10000008                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x10004804                PROVIDE (__preinit_array_end, .)
-                0x10004804                . = ALIGN (0x4)
-                0x10004804                PROVIDE (__init_array_start, .)
+                0x10000008                PROVIDE (__preinit_array_end, .)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
-                0x10004804                PROVIDE (__init_array_end, .)
-                0x10004804                . = ALIGN (0x4)
-                0x10004804                PROVIDE (__fini_array_start, .)
+                0x10000008                PROVIDE (__init_array_end, .)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
-                0x10004804                PROVIDE (__fini_array_end, .)
+                0x10000008                PROVIDE (__fini_array_end, .)
  *(.jcr)
-                0x10004804                . = ALIGN (0x4)
-                0x10004804                __data_end__ = .
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                __data_end__ = .
 
-.igot.plt       0x10004804        0x0 load address 0x000060c0
+.igot.plt       0x10000008        0x0 load address 0x000013f0
  .igot.plt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtbegin.o
 
-.bss            0x10004804      0x404 load address 0x000060c0
-                0x10004804                . = ALIGN (0x4)
-                0x10004804                __bss_start__ = .
+.bss            0x10000008      0x404 load address 0x000013f0
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                __bss_start__ = .
  *(.bss*)
- .bss.msTicks.4062
-                0x10004804        0x4 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
- .bss.oled_graphics_buffer.4057
-                0x10004808      0x400 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .bss.DisplayBuffer.4125
+                0x10000008      0x400 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
+ .bss.msTicks.4120
+                0x10000408        0x4 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
  *(COMMON)
-                0x10004c08                . = ALIGN (0x4)
-                0x10004c08                __bss_end__ = .
+                0x1000040c                . = ALIGN (0x4)
+                0x1000040c                __bss_end__ = .
 
-.heap           0x10004c08        0x0
-                0x10004c08                __end__ = .
-                0x10004c08                end = __end__
+.heap           0x10000410        0x0
+                0x10000410                __end__ = .
+                0x10000410                end = __end__
  *(.heap*)
- .heap          0x10004c08        0x0 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
-                0x10004c08                __HeapLimit = .
+ .heap          0x10000410        0x0 C:\Users\Reuben\AppData\Local\Temp\ccPLGvrC.o
+                0x10000410                __HeapLimit = .
 
-.stack_dummy    0x10004c08      0xc00
+.stack_dummy    0x10000410      0xc00
  *(.stack*)
- .stack         0x10004c08      0xc00 C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+ .stack         0x10000410      0xc00 C:\Users\Reuben\AppData\Local\Temp\ccPLGvrC.o
                 0x10008000                __StackTop = (ORIGIN (RAM) + 0x8000)
                 0x10007400                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x10008000                PROVIDE (__stack, __StackTop)
@@ -347,15 +348,15 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm
 OUTPUT(LPC1769-OLED-Mono-CM3.axf elf32-littlearm)
 
 .comment        0x00000000       0x70
- .comment       0x00000000       0x70 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+ .comment       0x00000000       0x70 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
                                  0x71 (size before relaxing)
 
 .ARM.attributes
                 0x00000000       0x29
  .ARM.attributes
-                0x00000000       0x31 C:\Users\Reuben\AppData\Local\Temp\ccZdRk2d.ltrans0.ltrans.o
+                0x00000000       0x31 C:\Users\Reuben\AppData\Local\Temp\ccfFrxBv.ltrans0.ltrans.o
  .ARM.attributes
-                0x00000031       0x1b C:\Users\Reuben\AppData\Local\Temp\ccq6v0nZ.o
+                0x00000031       0x1b C:\Users\Reuben\AppData\Local\Temp\ccPLGvrC.o
  .ARM.attributes
                 0x0000004c       0x2d c:/program files (x86)/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
 
